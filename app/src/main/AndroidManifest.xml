@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.kvega.project4musicstructureapp">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".PaymentActivity"
+            android:label="@string/label_payment"/>
+        <activity
+            android:name=".MusicLibraryActivity"
+            android:label="@string/label_music_library"/>
+        <activity
+            android:name=".NowPlayingActivity"
+            android:label="@string/label_now_playing"/>
+        <activity
+            android:name=".SettingsActivity"
+            android:label="@string/label_settings"/>
+        <activity
+            android:name=".StoreActivity"
+            android:label="@string/label_store"/>
+        <activity
+            android:name=".MusicPreviewActivity"
+            android:label="@string/label_music_preview"/>
+        <activity
+            android:name=".AlbumInfoActivity"
+            android:label="@string/label_album_info"/>
+        <activity
+            android:name=".ArtistInfoActivity"
+            android:label="@string/label_artist_info"/>
+    </application>
+
+</manifest>

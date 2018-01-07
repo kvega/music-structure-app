@@ -1,0 +1,61 @@
+<resources>
+    <!--Text for the category titles-->
+    <string name="app_name">Musical Structure</string>
+    <string name="category_music_library">Music Library</string>
+    <string name="category_music_preview">Music Preview</string>
+    <string name="category_now_playing">Now Playing</string>
+    <string name="category_payment">Payment</string>
+    <string name="category_settings">Settings</string>
+    <string name="category_store">Store</string>
+    <string name="category_artist_info">Artist Info</string>
+    <string name="category_album_info">Album Info</string>
+
+    <!--Text describing what each activity does-->
+    <string name="text_music_library">
+        This view contains the users local and purchased music. Clicking on a song or album will bring up a view containing its information. From that view the user will have the option to play songs and manage playlists. In this activity I could use a new Song class which contains the song artist itself, artist, album, etc. and a new SongAdapter class to then put all of the songs into a ListView. Using an OnItemClickListener, a user would be able to initiate playback of a song.
+    </string>
+    <string name="text_home">
+        This view serves as the central hub and allows the user to navigate to other activities within the app.
+    </string>
+    <string name="text_settings">
+        This view will allow users to configure the app settings. Users will be able to set the color of the app, fine tune recommendations, manage music history, and manage payment methods.
+    </string>
+    <string name="text_music_preview">
+        This view contains information such as artist and album. It also contains options for the user to play the song or album and purchase it if it does not already exist in their library.
+    </string>
+    <string name="text_payment">
+        This view allows the user to purchase a song or album. Users will be able to use existing payment methods or elect to add a new one. Here, the app will make use of the Google Play In-App Billing API. This API was chosen for two reasons: it provides a purchase flow which will be familiar to users and it provides support for managing in-app products.
+    </string>
+    <string name="text_now_playing">
+        This view contains the player controls and information for the currently playing song, as well as album art. A MediaPlayer class is used to manage the audio playback. This activity features Play, Pause, Next, Shuffle, and Repeat buttons to control the audio.
+    </string>
+    <string name="text_store">
+        This view showcases songs and albums which are trending or are popular among users with similar tastes in music. It will also display recommended music for the user. Selecting music in this view will bring up a view which will allow users to preview songs, pull album and artist information as well as purchase the song or album. This activity would make use a of a similar structure as the Music Library activity; the same Song an SongAdapter classes could be used to arranged songs into a Listview for users to select and preview or purchase.
+    </string>
+    <string name="text_artist_info">
+        This activity displays a song\'s artist\'s info
+    </string>
+    <string name="text_album_info">
+        This activity displays a song\'s album info
+    </string>
+
+    <!--Text for the action buttons-->
+    <string name="action_music_preview">Music Preview</string>
+    <string name="action_play_music">Play Music</string>
+    <string name="action_go_to_artist">Go to Artist</string>
+    <string name="action_go_to_album">Go to Album</string>
+    <string name="action_purchase">Purchase</string>
+    <string name="action_home">Return to Home</string>
+    <string name="action_library">Go to Library</string>
+
+    <!-- Text for the activity labels -->
+    <string name="label_home">Home Activity</string>
+    <string name="label_now_playing">Now Playing Activity</string>
+    <string name="label_music_library">Music Library Activity</string>
+    <string name="label_settings">Settings Activity</string>
+    <string name="label_payment">Payment Activity</string>
+    <string name="label_store">Store Activity</string>
+    <string name="label_artist_info">Artist Info Activity</string>
+    <string name="label_album_info">Album Info Activity</string>
+    <string name="label_music_preview">Music Preview Activity</string>
+</resources>
